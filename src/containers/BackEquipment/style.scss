@@ -1,0 +1,58 @@
+.backequip {
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+  background-attachment: fixed;
+}
+
+.slideshow_slideshow_page {
+  margin: 0 auto;
+  overflow: hidden;
+  max-width: 1500px;
+}
+
+.slideshowSlider_page {
+  white-space: nowrap;
+  transition: ease 1000ms;
+}
+
+.slide1 {
+  display: inline-block;
+  height: 100vh;
+  width: 100%;
+  color: white;
+  /* border-radius: 40px; */
+  background-color: #141414a6;
+  align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+.equip_advertise {
+  color: white;
+  text-align: center;
+  font-family: 'Sui Generis';
+}
+
+/* Buttons */
+
+.slideshowDots {
+  text-align: center;
+}
+
+.slideshowDot {
+  display: inline-block;
+  height: 5px;
+  width: 5px;
+  border-radius: 50%;
+
+  cursor: pointer;
+  margin: 15px 7px 0px;
+
+  background-color: #c4c4c4;
+}
+
+.slideshowDot.active {
+  background-color: #6a0dad;
+}

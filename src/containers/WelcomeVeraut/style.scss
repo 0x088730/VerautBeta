@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'Sui Generis';
+  src: url("../../assets/fonts/sui_generis_rg.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.welcomVT {
+  color: #009036;
+  font-size: 28px;
+  font-family: 'Sui Generis';
+}
+
+.welcomVT_content {
+  color: black;
+  font-size: 18px;
+  font-family: 'Sui Generis';
+}
+
+.welcome_VERAUT {
+  text-align: center;
+}
